@@ -18,7 +18,7 @@ public class TaskEntity {
     @Column(nullable = false)
     private String description;
     @Column(nullable = false)
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private PriorityEnum priority;
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "lists_of_tasks",

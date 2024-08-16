@@ -14,5 +14,5 @@ public class TaskDTO {
     private String description;
     private List<ListDTO> lists;
     private List<Long> listIDs;
-    private PriorityEnum pririty;
+    private PriorityEnum priority;
 }
